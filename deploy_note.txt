@@ -1,0 +1,3 @@
+Date: 12-08-24
+
+1. Update balance_history table column 'type' enum value receive_money = top_up

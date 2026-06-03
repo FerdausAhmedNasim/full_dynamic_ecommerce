@@ -1,0 +1,1 @@
+$("#summernote").summernote({height:400});window.copyShortCode=function(t){let e=document.getElementById("copied-success");navigator.clipboard.writeText("{"+t+"}"),e.style.opacity="1",setTimeout(function(){e.style.opacity="0"},500)};

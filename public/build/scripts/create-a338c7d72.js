@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#summernote").summernote({height:400}),$("#categories").select2({placeholder:"Select One",allowClear:!0}),$("#brand").select2({placeholder:"Select One",allowClear:!0})});

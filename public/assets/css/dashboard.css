@@ -1,0 +1,254 @@
+.card-head {
+    background: var(--card-heading) !important;
+    color: var(--card-heading-text) !important;
+}
+
+.card .card-body {
+    padding: 0 1.25rem 1.25rem;
+}
+
+.table td {
+    font-size: 0.875rem;
+}
+.table th,
+.table td {
+    line-height: 0;
+    font-weight: 500;
+}
+.br-15 {
+    border-radius: 15px;
+}
+.dashboard-card-design {
+    cursor: pointer !important;
+    border-radius: 20px;
+    box-shadow: 3px 4px 8px var(--card-heading);
+    transition: all 0.5s;
+}
+.dashboard-card-design:hover {
+    background: transparent;
+    transform: translateY(-2%);
+    box-shadow: 0px 0px 10px #00000099, inset 0px 0px 15px var(--card-heading);
+}
+.dashboard-card-design tr td {
+    font-size: 1.025rem;
+    line-height: 0.75rem;
+}
+.input-group {
+    position: relative;
+    .date-icon {
+        z-index: 3;
+        color: #fff;
+        top: 0.85rem;
+        right: 0.65rem;
+        cursor: pointer;
+        position: absolute;
+        /* padding-top: 0.25rem;
+        padding-right: 0.85rem; */
+    }
+}
+.title-border {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+::placeholder {
+    color: #fff !important;
+    opacity: 0.6 !important;
+}
+
+.s-stretch-card {
+    width: 24% !important;
+}
+
+.stretch-card {
+    width: 24%;
+}
+.card-1 {
+    background-color: #f0e7f99c;
+}
+.card-2 {
+    background-color: #e8f9e787;
+}
+.card-3 {
+    background-color: #f9f7e7a1;
+}
+.card-4 {
+    background-color: #f9e7e7ad;
+}
+.card-5 {
+    background-color: #e7f9f38a;
+}
+.dashboard-icon {
+    font-size: 3rem;
+}
+.dashboard-icon2 {
+    color: white;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    padding: 10px;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+}
+.sale-icon i {
+    color:#69b061;
+}
+.collection-icon i {
+    color:#50acaa;
+}
+.due-icon i {
+    color:#d4b20a;
+}
+.expense-icon i {
+    color:#c04e4e;
+}
+.customer-icon {
+    background:#0bb287;
+}
+.brand-icon {
+    background:#d4b20a;
+}
+.seller-icon {
+    background:#50acaa;
+}
+.category-icon {
+    background:#69b061;
+}
+.badge-dashboard {
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.border-success {
+    border: 1px solid var(--success);
+}
+.border-danger {
+    border: 1px solid var(--danger);
+}
+.dateRange {
+    color: white;
+    border-radius: 8px !important;
+    background: #4ACE8B;
+}
+.active {
+    background-color: #089d51;
+    border-color: #089d51;
+}
+.itemList {
+    color: #279c60;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.bb {
+    border-bottom: 1px solid #0d9953d4;
+}
+.itemList:hover {
+    color: #1F1F1F;
+    text-decoration: none !important;
+}
+
+.dashboard-card-design .card-title {
+    color: #010101;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.mt-0 {
+    margin-top: 0px !important;
+}
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.display-image img {
+    height: 52px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    max-width: 100%;
+    padding: 5px;
+}
+.progress.progress-lg {
+    width: 80%;
+}
+.star-width {
+    width: 8%;
+}
+.value-width {
+    width: 10%;
+}
+.pl3 {
+    padding-left: 0.25rem;
+}
+
+/* =============  Responsive ===========*/
+@media (max-width: 1380px) {
+    .input-group {
+        .date-icon {
+            padding-top: 0.25rem;
+            padding-right: 0.85rem;
+        }
+    }
+
+    .card-title{
+        font-size: 1rem;
+    }
+    .price-title{
+        font-size: 1rem;
+    }
+    .dashboard-icon{
+        font-size: 3rem;
+    }
+    .star-width {
+        width: 12%;
+    }
+    .value-width {
+        width: 17%;
+    }
+}
+@media (max-width: 992px) {
+    .stretch-card {
+        width: 49.5%;
+    }
+    .star-width {
+        width: 12%;
+    }
+    .value-width {
+        width: 17%;
+    }
+}
+@media (max-width: 768px) {
+    .stretch-card {
+        width: 100%;
+    }
+    .star-width {
+        width: 12%;
+    }
+    .value-width {
+        width: 17%;
+    }
+}
+@media (max-width: 576px) {
+    .card-title{
+        font-size: 1rem;
+    }
+    .price-title{
+        font-size: 1rem;
+    }
+    .dashboard-icon{
+        font-size: 3rem;
+    }
+    .star-width {
+        width: 12%;
+    }
+    .value-width {
+        width: 17%;
+    }
+}
+
+rect {
+    fill-opacity: 0;
+    /* fill: #ffffff00; */
+    /* stroke: #ffffff00; */
+}

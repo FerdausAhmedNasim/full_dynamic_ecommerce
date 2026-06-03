@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#summernote").summernote({height:350,inheritPlaceholder:!0,minHeight:null,maxHeight:null,focus:!0}),$(".form").on("submit",function(e){$("#summernote").summernote("isEmpty")&&(notify("Note description is empty, fill it!","warning"),e.preventDefault())})});

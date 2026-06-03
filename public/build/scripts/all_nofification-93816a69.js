@@ -1,0 +1,1 @@
+let e=[];var a=$("#dataTable").DataTable({order:[[0,"asc"]],processing:!0,responsive:!0,autoWidth:!1,dom:"Bfrtip",buttons:["pageLength",colVisibility("#dataTable",e)],columnDefs:e,language:{searchPlaceholder:"Search records",search:"",buttons:{pageLength:{_:"%d Rows"}}}});executeColVisibility(a);

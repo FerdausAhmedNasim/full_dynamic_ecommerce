@@ -1,0 +1,1 @@
+ALTER TABLE `balance_histories` CHANGE `type` `type` ENUM('settlement','payout','send_money','top_up') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL;

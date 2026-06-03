@@ -1,0 +1,1 @@
+const a="#updateAssignModal",t="#updateAssignForm",o="#updateStatusModal",s="#updateStatusForm";function n(){$(t).find("#note").val("")}window.clickUpdateAssignAction=function(){clearValidation(t),n(),$(a).modal("show")};window.clickUpdateStatus=function(){clearValidation(s),$(o).modal("show")};$("#ticketMessage").summernote({height:320});

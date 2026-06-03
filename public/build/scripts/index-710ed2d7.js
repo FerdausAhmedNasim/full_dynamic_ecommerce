@@ -1,0 +1,1 @@
+const n="#testMailModal",a="#testMailForm";window.clearForm=function(){$(a).find("input[name='name']").val(""),$(a).find("input[name='slug']").val("")};window.clickAddAction=function(){clearValidation(a),clearForm(),$(n).modal("show")};

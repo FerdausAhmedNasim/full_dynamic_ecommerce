@@ -1,0 +1,70 @@
+$.ajaxSetup({
+    headers: {
+    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+
+// $(document).ready(function () {
+//     $('#product').on('change',function(e) {
+//         var product_id = e.target.value;
+
+//         $.ajax({
+//             url: BASE_URL + "/ams/stocks/supplier",
+//             // url:"{{ route('admin.stock.supplier') }}",
+//             type:"POST",
+//             data: {
+//                 product_id: product_id
+//             },
+//             success:function (data) {
+//                 $('#supplier').empty();
+//                 $('#supplier').append('<option value="" class="selected highlighted">Select One</option>')
+//                 $.each(data.suppliers, function(index,supplier){
+//                     $('#supplier').append('<option value="'+supplier.id+'">'+supplier.name+'</option>');
+//                 })
+
+//                 if(data.entry_type == 0){
+//                     $("#macDiv").hide(1500);
+//                     $("#testingDiv").hide(1500);
+//                     $("#warrentyDiv").hide(1500);
+//                 }else{
+//                     $("#macDiv").show(1500);
+//                     $("#testingDiv").show(1500);
+//                     $("#warrentyDiv").show(1500);
+//                 }
+//             }
+//         })
+//     });
+// });
+
+$("#product").select2({
+    placeholder: "Select One",
+    allowClear: true
+});
+
+$("#supplier").select2({
+    placeholder: "Select One",
+    allowClear: true
+});
+
+$("#location").select2({
+    placeholder: "Select One",
+    allowClear: true
+});
+
+
+$(document).ready(function() {
+    $('#purchase_date').val("");
+    $('#purchase_date').on('cancel.daterangepicker', function(ev, picker) {
+        $('#purchase_date').val("");
+    });
+
+    $('#warranty_date').val("");
+    $('#warranty_date').on('cancel.daterangepicker', function(ev, picker) {
+        $('#warranty_date').val("");
+    });
+
+    $('#testing_date').val("");
+    $('#testing_date').on('cancel.daterangepicker', function(ev, picker) {
+        $('#testing_date').val("");
+    });
+});

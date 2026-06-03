@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".select_2_multiple").select2({placeholder:"Select One",allowClear:!0});function t(e){if(!e.element||!e.element.dataset.thumbnail)return e.text;var l=BASE_URL+"/"+e.element.dataset.thumbnail,a=$('<span><img width="50" src="'+l+'" class="img-flag" /> '+e.text+"</span>");return a}$(".productSelect2").select2({templateResult:t})});

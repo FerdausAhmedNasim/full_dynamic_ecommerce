@@ -1,0 +1,1 @@
+let e=[{className:"text-center",targets:[0,1]}];var a=$("#dataTable").DataTable({order:[[0,"desc"]],processing:!0,responsive:!0,autoWidth:!1,dom:"Bfrtip",buttons:["pageLength",colVisibility("#dataTable",e)],columnDefs:e,language:{searchPlaceholder:"Search records",search:"",buttons:{pageLength:{_:"%d Rows"}}}});executeColVisibility(a);
