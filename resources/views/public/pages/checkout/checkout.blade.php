@@ -318,12 +318,12 @@
                         <div class="my-3">
                             <h5>Select Delivery Area</h5>
                             <label for="inside_dhaka" class="p-3 border rounded-3 mt-3 d-block w-100">
-                                <input type="radio" checked data-cost="{{ settings('inside_dhaka') }}" name="shippingArea" id="inside_dhaka" value="inside_dhaka">
-                                <label for="inside_dhaka">Inside Dhaka {{ settings('inside_dhaka') ? getFormattedAmount(settings('inside_dhaka')) : '৳70'}}</label>
+                                <input type="radio" checked data-cost="{{ settings('extra_charge_for_inside_dhaka') }}" name="shippingArea" id="inside_dhaka" value="inside_dhaka">
+                                <label for="inside_dhaka">Inside Dhaka {{ settings('extra_charge_for_inside_dhaka') ? getFormattedAmount(settings('extra_charge_for_inside_dhaka')) : '৳70'}}</label>
                             </label>
                             <label for="outside_dhaka" class="p-3 border rounded-3 mt-2 d-block w-100">
-                                <input type="radio" data-cost="{{ settings('outside_dhaka') }}" name="shippingArea" id="outside_dhaka" value="outside_dhaka">
-                                <label for="outside_dhaka">Outside Dhaka {{ settings('outside_dhaka') ? getFormattedAmount(settings('outside_dhaka')) : '৳150'}}</label>
+                                <input type="radio" data-cost="{{ settings('extra_charge_for_outside_dhaka') }}" name="shippingArea" id="outside_dhaka" value="outside_dhaka">
+                                <label for="outside_dhaka">Outside Dhaka {{ settings('extra_charge_for_outside_dhaka') ? getFormattedAmount(settings('extra_charge_for_outside_dhaka')) : '৳150'}}</label>
                             </label>
                         </div>
 

@@ -37,7 +37,7 @@ function settings($key)
 
     $config = Config::pluck('value', 'key')->toArray();
 
-    return (is_array($key)) ? Arr::only($config, $key) : $config[$key];
+    return (is_array($key)) ? Arr::only($config, $key) : ($config[$key] ?? null);
 }
 
 /**

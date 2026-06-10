@@ -208,10 +208,16 @@ class GeneralSettingsController extends Controller
         return view('admin.pages.config.general_settings.preference');
     }
 
+
+
     protected function updateConfig(array $data)
     {
         foreach ($data as $key => $value) {
-            Config::where('key', $key)->update(['value' => $value]);
+            // where().update() → updateOrCreate() দিয়ে replace করুন
+            Config::updateOrCreate(
+                ['key' => $key],
+                ['value' => $value]
+            );
         }
 
         Artisan::call('cache:clear');
@@ -342,6 +348,7 @@ class GeneralSettingsController extends Controller
     public function resetColorSettings($website)
     {
         $route = '';
+
         if ($website == 'backend') {
             $colors = setDefaultColor();
 

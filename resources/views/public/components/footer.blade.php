@@ -204,7 +204,8 @@
             </div>
             @endif
 
-            <a href="https://websolutionfirm.com" target="_blank"><i class="fa fa-laptop"></i> <span> Web Solution Firm </span> </a>
+            <a href="https://web.ferdausahmed.com" target="_blank"><i class="fa fa-laptop"></i> <span> NCloud Solutions
+ </span> </a>
         </div>
     </div>
 </footer>

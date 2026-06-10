@@ -1,15 +1,23 @@
 {
-  "resources/admin_assets/audio/error.mp3": {
-    "file": "styles/error-b4882e39.mp3",
-    "src": "resources/admin_assets/audio/error.mp3"
-  },
   "resources/admin_assets/audio/pos.wav": {
     "file": "styles/pos-72624243.wav",
     "src": "resources/admin_assets/audio/pos.wav"
   },
+  "resources/admin_assets/audio/error.mp3": {
+    "file": "styles/error-b4882e39.mp3",
+    "src": "resources/admin_assets/audio/error.mp3"
+  },
   "resources/images/answer.png": {
     "file": "images/answer-6963e2bb.png",
     "src": "resources/images/answer.png"
+  },
+  "resources/images/auth/lockscreen-bg.jpg": {
+    "file": "images/lockscreen-bg-1689c010.jpg",
+    "src": "resources/images/auth/lockscreen-bg.jpg"
+  },
+  "resources/images/auth/login-bg.jpg": {
+    "file": "images/login-bg-aa4fb7c2.jpg",
+    "src": "resources/images/auth/login-bg.jpg"
   },
   "resources/images/auth/register-bg.jpg": {
     "file": "images/register-bg-144452b9.jpg",
@@ -19,25 +27,9 @@
     "file": "images/check-d850232d.svg",
     "src": "resources/images/check.svg"
   },
-  "resources/images/auth/login-bg.jpg": {
-    "file": "images/login-bg-aa4fb7c2.jpg",
-    "src": "resources/images/auth/login-bg.jpg"
-  },
-  "resources/images/auth/lockscreen-bg.jpg": {
-    "file": "images/lockscreen-bg-1689c010.jpg",
-    "src": "resources/images/auth/lockscreen-bg.jpg"
-  },
   "resources/images/dashboard/people.png": {
     "file": "images/people-84c10c48.png",
     "src": "resources/images/dashboard/people.png"
-  },
-  "resources/images/dashboard/shape-1.svg": {
-    "file": "images/shape-1-7d084fc9.svg",
-    "src": "resources/images/dashboard/shape-1.svg"
-  },
-  "resources/images/dashboard/shape-2.svg": {
-    "file": "images/shape-2-05618d72.svg",
-    "src": "resources/images/dashboard/shape-2.svg"
   },
   "resources/images/dashboard/people.svg": {
     "file": "images/people-3e76c6d7.svg",
@@ -46,6 +38,14 @@
   "resources/images/dashboard/people11.svg": {
     "file": "images/people11-45d922bb.svg",
     "src": "resources/images/dashboard/people11.svg"
+  },
+  "resources/images/dashboard/shape-1.svg": {
+    "file": "images/shape-1-7d084fc9.svg",
+    "src": "resources/images/dashboard/shape-1.svg"
+  },
+  "resources/images/dashboard/shape-2.svg": {
+    "file": "images/shape-2-05618d72.svg",
+    "src": "resources/images/dashboard/shape-2.svg"
   },
   "resources/images/dashboard/shape-3.svg": {
     "file": "images/shape-3-c652b59a.svg",
@@ -83,33 +83,33 @@
     "file": "images/united-states-6301f39e.png",
     "src": "resources/images/flags/united-states.png"
   },
-  "resources/images/logo2.png": {
-    "file": "images/logo2-dea726f1.png",
-    "src": "resources/images/logo2.png"
-  },
   "resources/images/no_avatar.png": {
     "file": "images/no_avatar-edf8cc64.png",
     "src": "resources/images/no_avatar.png"
   },
-  "resources/images/offer_img.webp": {
-    "file": "images/offer_img-13acf747.webp",
-    "src": "resources/images/offer_img.webp"
+  "resources/images/logo2.png": {
+    "file": "images/logo2-dea726f1.png",
+    "src": "resources/images/logo2.png"
   },
   "resources/images/noimage.jpg": {
     "file": "images/noimage-8258215a.jpg",
     "src": "resources/images/noimage.jpg"
   },
+  "resources/images/offer_img.webp": {
+    "file": "images/offer_img-13acf747.webp",
+    "src": "resources/images/offer_img.webp"
+  },
   "resources/images/offer_img2.png": {
     "file": "images/offer_img2-eb0a88f6.png",
     "src": "resources/images/offer_img2.png"
   },
-  "resources/images/question.png": {
-    "file": "images/question-5f4b5c53.png",
-    "src": "resources/images/question.png"
-  },
   "resources/images/sprites/blue.png": {
     "file": "images/blue-27b500f9.png",
     "src": "resources/images/sprites/blue.png"
+  },
+  "resources/images/question.png": {
+    "file": "images/question-5f4b5c53.png",
+    "src": "resources/images/question.png"
   },
   "resources/images/sprites/dark.png": {
     "file": "images/dark-19ace47d.png",
@@ -135,37 +135,37 @@
     "file": "images/yellow-c5394ec4.png",
     "src": "resources/images/sprites/yellow.png"
   },
-  "resources/images/website/cookie-bar.png": {
-    "file": "images/cookie-bar-7d74f661.png",
-    "src": "resources/images/website/cookie-bar.png"
-  },
   "resources/images/website/404.png": {
     "file": "images/404-a5e5d040.png",
     "src": "resources/images/website/404.png"
   },
-  "resources/images/website/cover-img.jpg": {
-    "file": "images/cover-img-a5ca66ba.jpg",
-    "src": "resources/images/website/cover-img.jpg"
-  },
-  "resources/images/website/facebook.png": {
-    "file": "images/facebook-0921a0eb.png",
-    "src": "resources/images/website/facebook.png"
-  },
-  "resources/images/website/invoice/shape-1.svg": {
-    "file": "images/shape-1-ec928611.svg",
-    "src": "resources/images/website/invoice/shape-1.svg"
-  },
-  "resources/images/website/forgot.png": {
-    "file": "images/forgot-731596d5.png",
-    "src": "resources/images/website/forgot.png"
+  "resources/images/website/cookie-bar.png": {
+    "file": "images/cookie-bar-7d74f661.png",
+    "src": "resources/images/website/cookie-bar.png"
   },
   "resources/images/website/dashboard-profile.png": {
     "file": "images/dashboard-profile-2b614fc0.png",
     "src": "resources/images/website/dashboard-profile.png"
   },
+  "resources/images/website/facebook.png": {
+    "file": "images/facebook-0921a0eb.png",
+    "src": "resources/images/website/facebook.png"
+  },
+  "resources/images/website/cover-img.jpg": {
+    "file": "images/cover-img-a5ca66ba.jpg",
+    "src": "resources/images/website/cover-img.jpg"
+  },
+  "resources/images/website/forgot.png": {
+    "file": "images/forgot-731596d5.png",
+    "src": "resources/images/website/forgot.png"
+  },
   "resources/images/website/google.png": {
     "file": "images/google-bced8f46.png",
     "src": "resources/images/website/google.png"
+  },
+  "resources/images/website/invoice/shape-1.svg": {
+    "file": "images/shape-1-ec928611.svg",
+    "src": "resources/images/website/invoice/shape-1.svg"
   },
   "resources/images/website/invoice/shape.png": {
     "file": "images/shape-6ff02368.png",
@@ -175,37 +175,37 @@
     "file": "images/leaf-b2cea97d.svg",
     "src": "resources/images/website/leaf.svg"
   },
-  "resources/images/website/offer.svg": {
-    "file": "images/offer-a11bb4ff.svg",
-    "src": "resources/images/website/offer.svg"
-  },
   "resources/images/website/log-in.png": {
     "file": "images/log-in-ca31c803.png",
     "src": "resources/images/website/log-in.png"
   },
-  "resources/images/website/otp.png": {
-    "file": "images/otp-f05e254f.png",
-    "src": "resources/images/website/otp.png"
+  "resources/images/website/offer.svg": {
+    "file": "images/offer-a11bb4ff.svg",
+    "src": "resources/images/website/offer.svg"
   },
   "resources/images/website/nodata.png": {
     "file": "images/nodata-e4c61c7f.png",
     "src": "resources/images/website/nodata.png"
   },
-  "resources/images/website/sign-up.png": {
-    "file": "images/sign-up-4497f02a.png",
-    "src": "resources/images/website/sign-up.png"
-  },
   "resources/images/website/order-success.png": {
     "file": "images/order-success-1b8da0e0.png",
     "src": "resources/images/website/order-success.png"
   },
-  "resources/images/website/svg/pending.svg": {
-    "file": "images/pending-6d3349a4.svg",
-    "src": "resources/images/website/svg/pending.svg"
+  "resources/images/website/otp.png": {
+    "file": "images/otp-f05e254f.png",
+    "src": "resources/images/website/otp.png"
+  },
+  "resources/images/website/sign-up.png": {
+    "file": "images/sign-up-4497f02a.png",
+    "src": "resources/images/website/sign-up.png"
   },
   "resources/images/website/svg/order.svg": {
     "file": "images/order-01b94833.svg",
     "src": "resources/images/website/svg/order.svg"
+  },
+  "resources/images/website/svg/pending.svg": {
+    "file": "images/pending-6d3349a4.svg",
+    "src": "resources/images/website/svg/pending.svg"
   },
   "resources/images/website/svg/wishlist.svg": {
     "file": "images/wishlist-f1c28db6.svg",
@@ -239,10 +239,6 @@
     "file": "styles/Nunito-Regular-9e4b7cf9.eot",
     "src": "resources/admin_assets/fonts/Nunito/Nunito-Regular.eot"
   },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
-    "file": "styles/fa-brands-400-d7236a19.woff2",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
-  },
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
     "file": "styles/fa-solid-900-aa759986.woff2",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
@@ -250,6 +246,10 @@
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
     "file": "styles/fa-regular-400-e3456d12.woff2",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "styles/fa-brands-400-d7236a19.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
   },
   "resources/admin_assets/sass/fonts/feather-webfont.woff": {
     "file": "styles/feather-webfont-0999a7c8.woff",
@@ -267,17 +267,13 @@
     "file": "styles/Nunito-Bold-0e242ef4.woff2",
     "src": "resources/admin_assets/fonts/Nunito/Nunito-Bold.woff2"
   },
-  "resources/admin_assets/fonts/Nunito/Nunito-Regular.woff2": {
-    "file": "styles/Nunito-Regular-58eca693.woff2",
-    "src": "resources/admin_assets/fonts/Nunito/Nunito-Regular.woff2"
-  },
   "resources/admin_assets/fonts/Nunito/Nunito-SemiBold.woff2": {
     "file": "styles/Nunito-SemiBold-e2d83cb7.woff2",
     "src": "resources/admin_assets/fonts/Nunito/Nunito-SemiBold.woff2"
   },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
-    "file": "styles/fa-brands-400-808443ae.ttf",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  "resources/admin_assets/fonts/Nunito/Nunito-Regular.woff2": {
+    "file": "styles/Nunito-Regular-58eca693.woff2",
+    "src": "resources/admin_assets/fonts/Nunito/Nunito-Regular.woff2"
   },
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
     "file": "styles/fa-regular-400-54cf6086.ttf",
@@ -286,6 +282,10 @@
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
     "file": "styles/fa-solid-900-d2f05935.ttf",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "styles/fa-brands-400-808443ae.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
   },
   "resources/admin_assets/sass/fonts/feather-webfont.ttf": {
     "file": "styles/feather-webfont-c2e3bc4a.ttf",
@@ -299,41 +299,41 @@
     "file": "styles/Nunito-Light-4919f57b.woff",
     "src": "resources/admin_assets/fonts/Nunito/Nunito-Light.woff"
   },
-  "resources/admin_assets/fonts/Nunito/Nunito-Regular.woff": {
-    "file": "styles/Nunito-Regular-e9cd9fe7.woff",
-    "src": "resources/admin_assets/fonts/Nunito/Nunito-Regular.woff"
+  "resources/admin_assets/fonts/Nunito/Nunito-Bold.woff": {
+    "file": "styles/Nunito-Bold-710af879.woff",
+    "src": "resources/admin_assets/fonts/Nunito/Nunito-Bold.woff"
   },
   "resources/admin_assets/fonts/Nunito/Nunito-SemiBold.woff": {
     "file": "styles/Nunito-SemiBold-6ce642fe.woff",
     "src": "resources/admin_assets/fonts/Nunito/Nunito-SemiBold.woff"
   },
-  "resources/admin_assets/fonts/Nunito/Nunito-Bold.woff": {
-    "file": "styles/Nunito-Bold-710af879.woff",
-    "src": "resources/admin_assets/fonts/Nunito/Nunito-Bold.woff"
+  "resources/admin_assets/fonts/Nunito/Nunito-Regular.woff": {
+    "file": "styles/Nunito-Regular-e9cd9fe7.woff",
+    "src": "resources/admin_assets/fonts/Nunito/Nunito-Regular.woff"
   },
   "resources/admin_assets/sass/fonts/feather-webfont.svg": {
     "file": "images/feather-webfont-96f8c60f.svg",
     "src": "resources/admin_assets/sass/fonts/feather-webfont.svg"
   },
-  "resources/admin_assets/fonts/Nunito/Nunito-Light.ttf": {
-    "file": "styles/Nunito-Light-03c8ce12.ttf",
-    "src": "resources/admin_assets/fonts/Nunito/Nunito-Light.ttf"
-  },
   "resources/admin_assets/sass/fonts/themify.svg": {
     "file": "images/themify-f7af2e09.svg",
     "src": "resources/admin_assets/sass/fonts/themify.svg"
   },
-  "resources/admin_assets/fonts/Nunito/Nunito-Regular.ttf": {
-    "file": "styles/Nunito-Regular-198c3746.ttf",
-    "src": "resources/admin_assets/fonts/Nunito/Nunito-Regular.ttf"
+  "resources/admin_assets/fonts/Nunito/Nunito-Light.ttf": {
+    "file": "styles/Nunito-Light-03c8ce12.ttf",
+    "src": "resources/admin_assets/fonts/Nunito/Nunito-Light.ttf"
+  },
+  "resources/admin_assets/fonts/Nunito/Nunito-Bold.ttf": {
+    "file": "styles/Nunito-Bold-6d6092ed.ttf",
+    "src": "resources/admin_assets/fonts/Nunito/Nunito-Bold.ttf"
   },
   "resources/admin_assets/fonts/Nunito/Nunito-SemiBold.ttf": {
     "file": "styles/Nunito-SemiBold-b4b24a22.ttf",
     "src": "resources/admin_assets/fonts/Nunito/Nunito-SemiBold.ttf"
   },
-  "resources/admin_assets/fonts/Nunito/Nunito-Bold.ttf": {
-    "file": "styles/Nunito-Bold-6d6092ed.ttf",
-    "src": "resources/admin_assets/fonts/Nunito/Nunito-Bold.ttf"
+  "resources/admin_assets/fonts/Nunito/Nunito-Regular.ttf": {
+    "file": "styles/Nunito-Regular-198c3746.ttf",
+    "src": "resources/admin_assets/fonts/Nunito/Nunito-Regular.ttf"
   },
   "resources/frontend_assets/sass/fonts/Iconly-light.eot": {
     "file": "styles/Iconly-light-15b5a024.eot",
@@ -343,9 +343,17 @@
     "file": "styles/Iconly-Bold-76b8e6b7.eot",
     "src": "resources/frontend_assets/sass/fonts/Iconly-Bold.eot"
   },
+  "resources/frontend_assets/fonts/fa-regular-400.woff2": {
+    "file": "styles/fa-regular-400-fa79fc4f.woff2",
+    "src": "resources/frontend_assets/fonts/fa-regular-400.woff2"
+  },
   "resources/frontend_assets/fonts/fa-brands-400.woff2": {
     "file": "styles/fa-brands-400-29bc4469.woff2",
     "src": "resources/frontend_assets/fonts/fa-brands-400.woff2"
+  },
+  "resources/frontend_assets/fonts/fa-solid-900.woff2": {
+    "file": "styles/fa-solid-900-1b099f88.woff2",
+    "src": "resources/frontend_assets/fonts/fa-solid-900.woff2"
   },
   "resources/frontend_assets/sass/vendors/slick/ajax-loader.gif": {
     "file": "images/ajax-loader-e7b44c86.gif",
@@ -359,14 +367,6 @@
     "file": "images/log-in-bg-fca85da7.png",
     "src": "public/frontend/images/background/log-in-bg.png"
   },
-  "resources/frontend_assets/fonts/fa-regular-400.woff2": {
-    "file": "styles/fa-regular-400-fa79fc4f.woff2",
-    "src": "resources/frontend_assets/fonts/fa-regular-400.woff2"
-  },
-  "resources/frontend_assets/fonts/fa-solid-900.woff2": {
-    "file": "styles/fa-solid-900-1b099f88.woff2",
-    "src": "resources/frontend_assets/fonts/fa-solid-900.woff2"
-  },
   "resources/frontend_assets/sass/fonts/Iconly-Bold.woff": {
     "file": "styles/Iconly-Bold-346558c4.woff",
     "src": "resources/frontend_assets/sass/fonts/Iconly-Bold.woff"
@@ -375,13 +375,13 @@
     "file": "styles/Iconly-light-ba269edc.woff",
     "src": "resources/frontend_assets/sass/fonts/Iconly-light.woff"
   },
-  "resources/frontend_assets/fonts/fa-brands-400.ttf": {
-    "file": "styles/fa-brands-400-9e122861.ttf",
-    "src": "resources/frontend_assets/fonts/fa-brands-400.ttf"
-  },
   "resources/frontend_assets/fonts/fa-regular-400.ttf": {
     "file": "styles/fa-regular-400-70903480.ttf",
     "src": "resources/frontend_assets/fonts/fa-regular-400.ttf"
+  },
+  "resources/frontend_assets/fonts/fa-brands-400.ttf": {
+    "file": "styles/fa-brands-400-9e122861.ttf",
+    "src": "resources/frontend_assets/fonts/fa-brands-400.ttf"
   },
   "resources/frontend_assets/fonts/fa-solid-900.ttf": {
     "file": "styles/fa-solid-900-1782156b.ttf",

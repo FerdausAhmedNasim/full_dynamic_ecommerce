@@ -340,7 +340,8 @@
             style="display:flex;justify-content: space-around;background-color: #00a967;color: white;padding: 10px;margin-top: 63px;">
             <span style="margin-right: 20px !important;">Thank you for business with us.</span>
             <span class="">Developed By: <a style="color: #0047ff;font-weight: 900;"
-                    href="https://websolutionfirm.com">Web Solution Firm</a> </span>
+                    href="https://web.ferdausahmed.com">NCloud Solutions
+</a> </span>
         </div>
     </div>
 </body>

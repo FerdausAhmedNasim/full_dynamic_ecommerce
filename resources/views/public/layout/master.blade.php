@@ -42,7 +42,7 @@
         {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Mukto Shop BD",
+            "name": "Choose different",
             "url": "https://muktoshopbd.com",
             "logo": "https://muktoshopbd.com/logo.png",
             "sameAs": [
