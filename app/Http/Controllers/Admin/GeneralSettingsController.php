@@ -153,6 +153,19 @@ class GeneralSettingsController extends Controller
         return back()->with('success', __('Successfully Updated'));
     }
 
+    // public function updateShippingCost(Request $request)
+    // {
+    //     // ❌ এটা ভুল - _token সহ সব save হয়
+    //     // $data = $request->all();
+
+    //     // ✅ এটা সঠিক
+    //     $data = $request->except(['_token', '_method']);
+
+    //     $this->updateConfig($data);
+
+    //     return back()->with('success', __('Successfully Updated'));
+    // }
+
     public function updateGeneralSettings(GeneralSettingsRequest $request)
     {
         $data = $request->validated();

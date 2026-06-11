@@ -94,7 +94,11 @@ class SettingsController extends Controller
     protected function updateConfig(array $data)
     {
         foreach ($data as $key => $value) {
-            Config::where('key', $key)->update(['value' => $value]);
+            // ✅ এটা ব্যবহার করুন
+            Config::updateOrCreate(
+                ['key' => $key],
+                ['value' => $value]
+            );
         }
 
         Artisan::call('cache:clear');
